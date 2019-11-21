@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=CircleSet
+comment0.text=\n\ A\ Circle\ set\ class\ is\ designed\ to\ read\ file,\ which\ contains\n\ number\ of\ circles,\ radius,\ center\ points,\ and\ colors.\ Also\ it\n\ counts\ number\ of\ circles,\ calculates\ closest\ center\ points\ of\n\ the\ circle,\ finds\ out\ smallest\ and\ largest\ radius,\ and\ \n\ determines\ changing\ brightness.\n\n\ @author\ Adilet\ Momunaliev\n\ \n
+comment1.params=source
+comment1.target=CircleSet(java.io.File)
+comment1.text=\n\ This\ is\ constructor\ CircleSet,\ which\ is\ designed\ to\ \n\ read\ properties\ of\ the\ circle\ and\ fill\ the\ array\ of\ the\ \n\ Circle\ Set\ width\ data,\ which\ is\ stored\ in\ file.\n\ @param\ File\ source\ for\ uploading\ the\ file\n\ @throws\ Exception\ if\ number\ of\ circles\ is\ less\ then\ two\n
+comment2.params=
+comment2.target=int\ getCount()
+comment2.text=\n\ Count\ length\ \ of\ the\ array\ of\ the\ CircleSet\n\ @return\ length\ of\ the\ array\ of\ the\ CircleSet\ \n
+comment3.params=
+comment3.target=double\ changingBrightness()
+comment3.text=\n\ \ Determines\ the\ overall\ change\ in\ brightness\ from\ one\ \n\ \ Circle\ to\ the\ next\ Circle.\n\ \ @return\ overall\ change\ in\ brightness\ within\ Circles\ \n
+comment4.params=
+comment4.target=Circle[]\ smallLarge()
+comment4.text=\n\ Determines\ smallest\ and\ largest\ radius\ of\ Circle\ within\ \n\ CircleSet\n\ @return\ array\ with\ smallest\ and\ largest\ radius\ if\ Circles\n\ \ have\ the\ same\ radius\ then\ returns\ radius\ of\ the\ Circle\ \n\ \ with\ lowest\ index\ \n
+comment5.params=
+comment5.target=Circle[]\ getClosest()
+comment5.text=\n\ Determines\ pair\ of\ Circles,\ which\ is\ located\ close\ to\ each\n\ other\ \n\ \ @return\ pair\ of\ Circles\ ,\ which\ is\ closest\ to\ each\ other\n\ \ @throws\ Exception\ if\ length\ of\ CircleSet\ is\ less\ then\ two\ \n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ The\ string\ version\ of\ this\ CircleSet\ is\ designed\ to\ put\ \n\ all\ Circles\ within\ CircleSet\ for\ output.\ \n\ @return\ the\ String\ representation\n
+numComments=7

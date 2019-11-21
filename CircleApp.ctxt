@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=CircleApp
+comment0.text=\n\ Provides\ a\ GUI\ interface\ to\ allow\ a\ user\ to\ read\ in\ a\ file\ of\ Circles,\n\ and\ get\ interesting\ stats\n\ \n\ You\ are\ not\ responsible\ for\ understanding\ this\ code,\ but\ if\ you\ have\ any\ questions,\n\ I'd\ be\ happy\ to\ answer\ them.\n\ \n\ NOTE\ -\ if\ you\ want\ to\ call\ more\ methods\ on\ your\ CircleSet\ object,\ add\ statements\ to\ the\ method\n\ buildDisplay()\n\ \n\ @author\ csc142\ \n\ @version\ Spring\ 2012\n
+comment1.params=
+comment1.target=CircleApp()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ GPSApp\n
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=
+comment3.target=void\ process()
+comment4.params=cs
+comment4.target=java.lang.String\ buildDisplay(CircleSet)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment6.params=
+comment6.target=void\ run()
+numComments=7
